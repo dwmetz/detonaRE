@@ -98,7 +98,8 @@ Wait-Process -Name "MagnetRESPONSE"
 # Terminate malware process
 Write-host "
 Terminating malware process"
-Get-Process| Where-Object {$_.Name -Like $malware} | Stop-Process
+$malproc = [io.path]::GetFileNameWithoutExtension($malware)
+Get-process $malproc | stop-process
 # Convert .etl to .pcap
 Write-host "
 Converting .etl file to .pcap"
