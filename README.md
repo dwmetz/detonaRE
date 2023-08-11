@@ -35,6 +35,7 @@
 
 >- [Magnet RESPONSE](https://support.magnetforensics.com/s/article/Collect-evidence-for-incident-response-investigations-with-Magnet-RESPONSE)
 >- [etl2pcapng.exe](https://github.com/microsoft/etl2pcapng)
+>- [procmon.exe](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 >
 ```
 ## variable configuration:
