@@ -20,12 +20,14 @@
    Functions:
   </h5>
 
-- initiates packet capture
+- initiates .etl packet capture
+- initiates Process Monitor with a filter applied for the malware to be detonated
 - launches malware sample
 - terminates packet capture after specified interval
 - initiates evidence collection with Magnet RESPONSE (memory, process, and triage capture)
 - terminates the malware process
-- converts collected .etl file (network capture) to .pcap with etl2pcapng.
+- converts collected .etl file to .pcap with etl2pcapng.
+- converts collected .pml to .csv
 
 <h5>
    Prerequisites:
@@ -45,5 +47,5 @@ $toolsdir = "E:\Tools" ## MagnetRESPONSE.exe and etl2pcapng.exe
 
 For a walkthrough of the code visit [BakerStreetForensics](https://bakerstreetforensics.com/?p=1295).
 
-Video demonatration on [YouTube](https://youtu.be/Waxo351UucM)
+Video demonatration on [YouTube](https://youtu.be/XsnuJ_yJm3I)
 
