@@ -40,10 +40,13 @@
 ```
 ## variable configuration:
 $malwspath = "E:" ## malware source path
-$malwdpath = "C:\Users\REM\Desktop\Malware\" ## malware destination path
-$malware = "redline-76ca4a.exe" ## malware executable
+$malwdpath = "C:\Users\REM\Desktop\Malware\" ## malware destination path on target host
+$malware = "malware.exe" ## malware executable
 $pcaptime = 180 ## duration in seconds for pcap capture
-$toolsdir = "E:\Tools" ## MagnetRESPONSE.exe and etl2pcapng.exe
+$toolsdir = "E:\Tools" # tools directory
+$collectiondir = "E:\Collections" ## output directory for collections
+$procmonconfig = "$toolsdir\malw.pmc" ## Process Monitor configuration file
+##
 ```
 
 For a walkthrough of the code visit [BakerStreetForensics](https://bakerstreetforensics.com/?p=1295).
