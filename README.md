@@ -49,7 +49,4 @@ $procmonconfig = "$toolsdir\malw.pmc" ## Process Monitor configuration file
 ##
 ```
 
-For a walkthrough of the code visit [BakerStreetForensics](https://bakerstreetforensics.com/?p=1295).
-
-Video demonatration on [YouTube](https://youtu.be/lHi7zH9BicM)
 
